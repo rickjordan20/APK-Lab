@@ -9,18 +9,18 @@
 
 
 /* Blocos complementares — responsivos, legíveis e alinhados ao tema existente */
-.lab-extra{margin:1.8rem 0;padding:1.25rem;border:1px solid var(--border,rgba(140,150,170,.25));border-radius:16px;background:var(--surface,rgba(120,130,150,.06))}
+.lab-extra{margin:1.8rem 0;padding:1.25rem;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
 .lab-extra h2{margin-top:0}
-.lab-table-wrap{max-width:100%;overflow-x:auto;border-radius:12px;border:1px solid var(--border,rgba(140,150,170,.25))}
+.lab-table-wrap{max-width:100%;overflow-x:auto;border-radius:12px;border:1px solid var(--line)}
 .lab-table{width:100%;border-collapse:collapse;min-width:390px;font-size:.94rem}
-.lab-table th,.lab-table td{text-align:left;vertical-align:top;padding:.85rem;border-bottom:1px solid var(--border,rgba(140,150,170,.2))}
+.lab-table th,.lab-table td{text-align:left;vertical-align:top;padding:.85rem;border-bottom:1px solid var(--line)}
 .lab-table th{background:rgba(100,120,160,.12);font-weight:700}
 .lab-table tbody tr:last-child td{border-bottom:0}
 .lab-links{display:flex;flex-wrap:wrap;gap:.7rem}
-.lab-links a{display:inline-flex;align-items:center;padding:.65rem .9rem;border:1px solid var(--border,rgba(140,150,170,.3));border-radius:10px;text-decoration:none;overflow-wrap:anywhere}
-.lab-links a:hover,.lab-links a:focus-visible{outline:2px solid var(--accent,#5da8ff);outline-offset:2px}
+.lab-links a{display:inline-flex;align-items:center;padding:.65rem .9rem;border:1px solid var(--line);border-radius:10px;text-decoration:none;overflow-wrap:anywhere}
+.lab-links a:hover,.lab-links a:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 .lab-diagnostics{display:grid;gap:.65rem}
-.lab-diagnostics details,.lab-exercise{border:1px solid var(--border,rgba(140,150,170,.3));border-radius:12px;padding:.85rem 1rem;background:rgba(110,120,140,.06)}
+.lab-diagnostics details,.lab-exercise{border:1px solid var(--line);border-radius:12px;padding:.85rem 1rem;background:rgba(110,120,140,.06)}
 .lab-diagnostics summary,.lab-exercise summary{cursor:pointer;font-weight:650;padding:.2rem 0}
 .lab-diagnostic-body{padding:.5rem 0 .1rem}
 .lab-diagnostic-body p{margin:.5rem 0}
